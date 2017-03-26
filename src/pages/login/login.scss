@@ -1,0 +1,19 @@
+page-login {
+  .bg-image{
+    background-size: contain;
+    background: url("../assets/images/login.jpg") no-repeat;
+  }
+  .login-container{
+    width: 300px;
+    margin: 10vh auto;
+    background: map_get($colors,light);
+    .social-login{
+      margin-top: -50px;
+      background: map_get($colors,primary);
+      h4{
+        margin: 5px 0;
+        color: map_get($colors,light);
+      }
+    }
+  }
+}

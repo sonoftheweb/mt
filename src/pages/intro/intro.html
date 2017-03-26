@@ -1,0 +1,38 @@
+<ion-content>
+
+  <ion-slides [options]="slideOptions" pager>
+
+    <ion-slide padding>
+      <div class="slide-content" padding>
+        <h3>Made specifically for WordPress</h3>
+        <p>You'll only need one plugin to run this application as is. Handles with great speed and agility.</p>
+      </div>
+      <div class="bottom-icon bg-primary">
+        <span class="align-helper"></span>
+        <img src="assets/images/wp.png">
+      </div>
+    </ion-slide>
+
+    <ion-slide padding>
+      <div class="slide-content" padding>
+        <h3>No Pressure</h3>
+        <p>You ain't a noob. Of course you know what you are doing. The codes are well documented and the documentation can resides in the root folder of your download. Just in-case ;)</p>
+      </div>
+      <div class="bottom-icon bg-secondary">
+        <span class="align-helper"></span>
+        <img src="assets/images/code.png">
+      </div>
+    </ion-slide>
+
+    <ion-slide padding>
+      <div padding>
+        <h3 class="font-light">More features than ever</h3>
+        <h1>You just pick</h1>
+        <p>The essence of a theme is to reduce time wasting and increase productivity. There are snippets you can just copy and use, compiled in this build. More will be added soon.</p>
+      </div>
+      <button ion-button clear (click)="nextPage()">Skip</button>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

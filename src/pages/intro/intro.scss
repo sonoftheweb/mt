@@ -1,0 +1,46 @@
+page-intro {
+  ion-slide{
+    background: map_get($colors,light);
+    div.slide-content{
+      background: white;
+      box-shadow: 0 1px 4px 0 map_get($colors,shadows);
+      border-radius: 6px;
+      color: map_get($colors,fcolor);
+    }
+    div.bottom-icon{
+      width: 35px;
+      height: 35px;
+      margin: -20px auto 0 auto;
+      border-radius: 6px;
+      text-align: center;
+      .align-helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+      img{
+        vertical-align: middle;
+        width: 80% !important;
+        height: auto;
+        margin-left: -3px;
+      }
+    }
+  }
+  /*ion-slide:first-child{
+    background-image: url('../../assets/images/wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  ion-slide:nth-child(2){
+    background-image: url('../../assets/images/ease.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  ion-slide:nth-child(3){
+    background-image: url('../../assets/images/features.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }*/
+}

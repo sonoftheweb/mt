@@ -1,0 +1,162 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+@font-face {
+  font-family: 'gotham_blackregular';
+  src: url('../assets/fonts/gotham-black-webfont.woff2') format('woff2'),
+  url('../assets/fonts/gotham-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gotham_boldregular';
+  src: url('../assets/fonts/gotham-bold-webfont.woff2') format('woff2'),
+  url('../assets/fonts/gotham-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gotham_lightregular';
+  src: url('../assets/fonts/gotham-light1-webfont.woff2') format('woff2'),
+  url('../assets/fonts/gotham-light1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gotham_mediumregular';
+  src: url('../assets/fonts/gotham-medium1-webfont.woff2') format('woff2'),
+  url('../assets/fonts/gotham-medium1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gotham_extralightregular';
+  src: url('../assets/fonts/gotham-xlight1-webfont.woff2') format('woff2'),
+  url('../assets/fonts/gotham-xlight1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gotham_bookregular';
+  src: url('../assets/fonts/ufonts.com_gotham-book-webfont.woff2') format('woff2'),
+  url('../assets/fonts/ufonts.com_gotham-book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'robotothin';
+  src: url('../assets/fonts/roboto/Roboto-Thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../assets/fonts/roboto/Roboto-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url('../assets/fonts/roboto/Roboto-Medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotolight';
+  src: url('../assets/fonts/roboto/Roboto-Light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('../assets/fonts/roboto/Roboto-Bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoblack';
+  src: url('../assets/fonts/roboto/Roboto-Black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.md, .ios, .wp {
+  font-family: 'robotoregular' !important;
+}
+
+p {
+  font-size: 15px;
+  line-height: 21px;
+  color: map-get($colors,fcolor);
+}
+
+h1,h2,h3,h4,h5 {
+  color: map-get($colors,fcolor);
+  font-family: 'robotobold';
+}
+
+.font-light {
+  font-family: 'robotolight';
+}
+
+ion-content {
+  color: map-get($colors,fcolor);
+  background: map_get($colors,light);
+}
+
+button{
+  ion-icon.right{
+    margin-left: 10px;
+  }
+}
+
+.bg-primary{
+  background-color: map_get($colors,primary);
+}
+
+.bg-secondary{
+  background-color: map_get($colors,secondary);
+}
+
+.box-shadow{
+  box-shadow: 0 1px 4px 0 map_get($colors,shadows);
+}
+
+.border-radius{
+  border-radius: 6px;
+}
+
+.stensil{
+  font-family:'robotolight';
+}
